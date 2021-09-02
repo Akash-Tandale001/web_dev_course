@@ -7,9 +7,10 @@ body{
 *{
     box-sizing: border-box;
     overflow: hidden;
+    align-items: center;
 }
 .row{
-    width: 95%;
+    width: 95%;    
 }
 
 div.pa{
@@ -17,47 +18,33 @@ div.pa{
     font-weight: bold;
     font-size: 20px;
     color: brown;
-    /* width: 450px; */
-    width: 95%;
+    width: 450px;
     height: 400px;
-    margin: 15px;
+    margin: 10px;
     padding-top: 0px;
     border: 3px solid black;
     float: left;
-    position: relative;
-    
 }
 p{
-    width: 75px;
+    width: 90px;
     height: 35px;
-    margin: 0px;
-    border: 3px solid black;   
+    margin-top: 0;
+    border: 3px solid black; 
+    float: right;  
   
 }
 article{
     margin: 15px;
+    clear: both;
 }
 #t1{
-    background-color: rgb(175, 86, 202); 
-    position: absolute;
-    top:0;
-    right: 0;
-    clear: both;
-   
+    background-color: rgb(175, 86, 202);    
 }
 #t2{
-    background-color: rgb(85, 236, 241);
-    position: absolute;
-    top:0;
-    right: 0;
-  
+    background-color: rgb(85, 236, 241);    
 }
 #t3{
     background-color: rgb(241, 229, 59);
-    position: absolute;
-    top:0;
-    right: 0;
-    
 }
 
 
@@ -65,14 +52,13 @@ article{
 
 @media (min-width:992px){    
     div.pa{
-        width: 450px;
+        width: 30%;
     }
 
 }
 @media (min-width:768px) and (max-width:991px){
     div.pa{
-        float: left;
-        width: 95%;
+        width: 45%;
     }
  
 }
