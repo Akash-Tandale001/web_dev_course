@@ -38,13 +38,22 @@ article{
     clear: both;
 }
 #t1{
-    background-color: rgb(175, 86, 202);    
+    background-color: rgb(175, 86, 202);  
+    position: relative;
+    top:0;
+    left:0;  
 }
 #t2{
-    background-color: rgb(85, 236, 241);    
+    background-color: rgb(85, 236, 241);   
+    position: relative;
+    top:0;
+    left:0;  
 }
 #t3{
     background-color: rgb(241, 229, 59);
+    position: relative;
+    top:0;
+    left:0; 
 }
 
 
